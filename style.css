@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+  padding: 0%;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navlogo {
+  height: 40px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("/DATA/amazonwhitelogo.png");
+  height: 30px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/* box2 */
+
+i {
+  margin-bottom: 5px;
+}
+
+.add-logo {
+  display: flex;
+  align-items: center;
+}
+
+.Deliver {
+  margin-left: 15px;
+  color: #cccccc;
+  font-size: 0.8rem;
+}
+
+.India {
+  margin-left: 2px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Box 3 */
+
+.nav-search {
+  display: flex;
+  height: 40px;
+  width: 60%;
+  /* background-color: aqua; */
+}
+
+.search-border {
+  border: 2px solid transparent;
+  border-radius: 3px;
+}
+
+.search-border:hover {
+  border: 2px solid #febd68;
+  border-radius: 5px;
+}
+
+.search-select {
+  height: 40px;
+  width: 51px;
+  color: #e6e6e6;
+  align-items: center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1.1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #febd68;
+  font-size: 1.2rem;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+  color: #0f1111;
+}
+
+.box4line1 {
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.box4line2 {
+  align-items: center;
+  font-weight: bold;
+}
+
+.box5line1 {
+  font-size: 0.8rem;
+}
+
+.box5line2 {
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+}
+
+.cart-logo {
+  font-size: 1.8rem;
+}
+
+.cart-text {
+  font-size: 20px;
+}
+
+.line2 {
+  height: 39px;
+  display: flex;
+  align-items: center;
+  background-color: #222f3d;
+  color: white;
+}
+
+.line2anchor {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.L2all {
+  margin-left: 8px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.line3 {
+  /* height: 50px;
+    width:100%; */
+}
+
+.hero {
+  height: 350px;
+  width: 100%;
+
+  background-image: url("/DATA/hero.jpg");
+  background-size: cover;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: end;
+}
+
+.hero-text {
+  width: 98%;
+  margin-bottom: 40px;
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.hero-text a {
+  text-decoration: none;
+  color: #007185;
+}
+
+.main-box1 {
+  background-color: #e2e7e6;
+  /* border: 2px solid black; */
+  height: 400px;
+  /* width: 25%; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.box1-items {
+  /* border: 2px solid black; */
+  height: 400;
+  width: 21%;
+  background-color: white;
+  padding: 20px 15px 0px;
+}
+
+.box1-items p {
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.box1-items a {
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: end;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.box-img1 {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-bottom: 20px; */
+}
+
+.backtotop {
+  background-color: #222f3d;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backtotop a {
+  text-decoration: none;
+  color: white;
+}
+
+.high1 {
+  background-color: #222f3d;
+}
+
+.high1:hover {
+  background-color: #293643;
+}
+
+.footer2 {
+  background-color: #0f1111;
+  height: 230px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul{
+  margin: 10px;;
+}
+
+ul p{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+ul a{
+  display: block;
+  margin-top: 10px;
+  /* color: #dddddd; */
+}
+
+.f p {
+  font-weight: bold;
+}
+
+.f {
+}
