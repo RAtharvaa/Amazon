@@ -20,7 +20,7 @@
 }
 
 .logo {
-  background-image: url("/DATA/amazonwhitelogo.png");
+  background-image: url("./DATA/amazonwhitelogo.png");
   height: 30px;
   width: 100%;
   background-size: contain;
@@ -168,7 +168,7 @@ i {
   height: 350px;
   width: 100%;
 
-  background-image: url("/DATA/hero.jpg");
+  background-image: url("./DATA/hero.jpg");
   background-size: cover;
 
   display: flex;
