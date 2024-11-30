@@ -277,12 +277,19 @@ ul p{
 ul a{
   display: block;
   margin-top: 10px;
-  /* color: #dddddd; */
+  color: #dddddd;
 }
 
 .f p {
   font-weight: bold;
 }
 
-.f {
+.footer2 a{
+
+  text-decoration: none;
+}
+
+.main-box1 a{
+  font-weight: 600;
+  color: #246fb6;
 }
